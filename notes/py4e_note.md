@@ -31,5 +31,22 @@ for aaa, bbb in jjj.items()
    print(aaa, bbb)
 ```
   ***
-# Tuples
-``tuples``
+## Chapter 10
+### Tuples
+``tuples = () ``   
+string and tuples are immutable
+Tuples are comparable.
+
+- `item() can return tuple`
+- `sorted(list/tuple, reverse = True)` can order the tuples according to **key / values**.
+#### example:
+![MGmnC2](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/uPic/MGmnC2.png?token=AJ7JITGRYVMREP4XCJX7OS27N55YA)
+#### Short version of the example
+![MsDv9s](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/uPic/MsDv9s.png?token=AJ7JITFE6WYYAIDBGVHEBPK7N553W)
+
+
+
+
+
+
+.

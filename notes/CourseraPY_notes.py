@@ -19,26 +19,26 @@ for thing in [9, 41, 12, 3, 74, 15] :
     zork = zork + thing
 print('After', zork)
 ##
-# 
+#
 largest = None
 smallest = None
 
 while True:
     num = input("Enter a number: ")
-    if num == "done" : 
+    if num == "done" :
         break
-        
+
     try :
 	    fnum = float(num)
     except :
         print('Invalid input')
         continue
-    
+
 	if ((smallest is None) or (fnum < smallest)):
 	    smallest = int(fnum)
 	if ((largest is None) or (fnum > largest)):
 	    largest = int(fnum)
-        
+
 print("Maximum is ", largest)
 print("Minimum is ", smallest)
 
@@ -52,7 +52,7 @@ largest = None
 while True:
     # Ask for the user input
     sval = input('Enter a number: ')
-    
+
     # If user types 'done' then exit
     if sval == 'done': break
 
@@ -80,21 +80,21 @@ smallest = None
 
 while True:
     num = input('Enter a number: ')
-    if num == "done" : 
+    if num == "done" :
         break
-        
+
     try :
 	    fnum = float(num)
     except :
         print('Invalid input')
         continue
-        
+
     if smallest is None:
         smallest = fnum
 	elif num < smallest:
         smallest = fnum
 
-        
+
 largest = None
 smallest = None
 while True:
@@ -105,7 +105,7 @@ while True:
     except :
         print('Invalid input')
         continue
-        
+
 	if smallest is None:
 		smallest = n
 	elif n < smallest:
@@ -114,7 +114,7 @@ while True:
         largest = n
 	elif largest > n:
         lergest = n
-            
+
 print("Maximum", smallest)
 
 x = '40'
