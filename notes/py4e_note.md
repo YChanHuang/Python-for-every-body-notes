@@ -38,11 +38,14 @@ string and tuples are immutable
 Tuples are comparable.
 
 - `item() can return tuple`
+
 - `sorted(list/tuple, reverse = True)` can order the tuples according to **key / values**.
+
+- The tuple can be sorted by flipped.
 #### example:
 ![MGmnC2](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/uPic/MGmnC2.png?token=AJ7JITGRYVMREP4XCJX7OS27N55YA)
 #### Short version of the example
-![MsDv9s](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/uPic/MsDv9s.png?token=AJ7JITFE6WYYAIDBGVHEBPK7N553W)
+![](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/1601147113349-20200926200512.png?token=AJ7JITC4JUNZCRJKF3CWVXC7N6ISM)
 
 
 
