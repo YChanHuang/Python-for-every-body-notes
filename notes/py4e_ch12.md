@@ -53,3 +53,13 @@ mysock.close()
 ```
 
 ## Encode & decode
+
+
+# String
+## ASCII
+`ord()` tells the numerical value of character
+
+```
+print(ord('H'))
+72
+```
