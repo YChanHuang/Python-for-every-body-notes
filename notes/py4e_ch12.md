@@ -63,3 +63,54 @@ mysock.close()
 print(ord('H'))
 72
 ```
+## Unicode
+- **UTF-8** : 1-4 bytes
+- In Python3 all **strings are Unicode**
+- In Python3, string and Unicode string are the same, but is different from
+
+```
+...
+cmd = "GET ....encode()" # encode the string into bytes
+
+
+While True:
+  data = mysock.recv(512) #bytes
+  if (len(data) < 1):
+    break
+    mystring = data.edcode() # this is string in UTF8
+    print(mystring)
+```
+
+![](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/20200928115951.png?token=AJ7JITC5OVRSLVBLSB55VXS7OHBGI)
+
+
+## ch12.3
+### urllib in Python3
+
+![](https://raw.githubusercontent.com/YChanHuang/UploadedPic/master/20200928120442.png?token=AJ7JITBGIZQ3M6FDDGT3J3K7OHBYO)
+
+```
+import urllib.request, urllib.parse, urllib.error
+
+fhand = url lib.request.urlopen('URL')
+#this opens URL and store it as file
+
+for line in fhand:
+  print(line.decode().strip())
+
+```
+
+- Readable formats: **htm**, **txt**
+(html is normally behind **'href='**)
+
+
+
+
+
+
+
+
+
+
+
+**All the screenshots are credited to the University of Michican**

@@ -82,3 +82,6 @@ Tuples are comparable.
 ```
 (\S+@\S+)
 ```
+
+
+**All the screenshots are credited to the University of Michican**
