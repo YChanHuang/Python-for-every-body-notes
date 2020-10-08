@@ -100,11 +100,13 @@ for line in fhand:
 
 ```
 
+
 - Readable formats: **htm**, **txt**
 (html is normally behind **'href='**)
 
 
-
+## BeautifulSoup library
+- Searching the strings effectively and quickly
 
 
 
