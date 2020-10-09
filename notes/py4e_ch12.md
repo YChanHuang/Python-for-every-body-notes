@@ -108,7 +108,8 @@ for line in fhand:
 ## BeautifulSoup library
 - Searching the strings effectively and quickly
 
-
+- How to install this library
+  1.
 
 
 
