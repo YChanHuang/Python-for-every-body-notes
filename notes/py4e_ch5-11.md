@@ -33,7 +33,7 @@ for aaa, bbb in jjj.items()
   ***
 ## Chapter 10
 ### Tuples
-``tuples = () ``   
+``tuples = () ``
 string and tuples are immutable
 Tuples are comparable.
 
